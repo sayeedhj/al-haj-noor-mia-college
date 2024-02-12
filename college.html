@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Al-Haj Noor Mia College</title>
+    <style>
+        /* CSS styles for the entire document */
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0 20px; /* Adjusted padding for responsiveness */
+    }
+    header {
+        background-color: #005bab;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+
+    .banner-img {
+        display: block;
+        margin: 20px auto; /* Centering the banner image */
+        width: 50%; /* Adjusted width for responsiveness */
+        max-width: 100%; /* Ensuring image doesn't exceed container width */
+    }
+    
+    nav {
+        background-color: #f4f4f4;
+        padding: 10px;
+        text-align: center;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+        padding: 10px 20px;
+    }
+    nav a:hover {
+        background-color: #ddd;
+    }
+    .content {
+        padding: 20px;
+        text-align: justify;
+    }
+
+
+    /* Founder Section styling */
+    #founder {
+        text-align: center;
+        padding: 0 100px 0 100px;
+    }
+    
+    .founder-container {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap onto new line */
+        justify-content: center;
+    }
+    
+    .founder-image,
+    .founder-text {
+        flex: 1 1 100%; /* Take up full width by default */
+        margin: 10px 0;
+    }
+    
+    .founder-image {
+        max-width: 300px; /* Set maximum width for the image */
+    }
+    
+    .founder-image img {
+        width: 100%; /* Fill the container */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 6px;
+        box-shadow: 3px 3px 3px gray;
+    }
+    
+    .founder-text {
+        text-align: center;
+    }
+    
+    .founder-name {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    /* Media Query for mobile phones */
+    @media screen and (min-width: 600px) {
+        .founder-image,
+        .founder-text {
+            flex: 1 1 50%; /* Take up 50% of the available space on larger screens */
+            max-width: none; /* Reset max-width for larger screens */
+        }
+    }
+
+
+
+
+
+    /* Styling for teacher and course sections */
+
+    #teachers-header {
+     text-align: center;
+    }
+
+    #teacher-boxes {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap; /* Ensuring responsiveness */
+    }
+
+    .teacher-box {
+        width: 250px;
+        margin: 0 10px 20px; /* Adjusted margin for responsiveness */
+        text-align: center;
+        border: 2px solid #333;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .teacher-image {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+    }
+
+
+    /* Add this CSS for the button */
+        #more-button {
+         text-align: center;
+         margin-top: 20px; /* Adjust as needed */
+         margin-bottom: 70px;
+    }
+    
+    #more-button button {
+        padding: 10px 20px;
+        background-color: #2b2323;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    
+    
+    /* Additional Section styling */
+    #additional {
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .section-header {
+        margin-bottom: 20px;
+    }
+    
+    .photo-row {
+        display: flex;
+        flex-wrap: wrap; /* Allow items to wrap onto new line */
+        justify-content: center;
+    }
+    
+    .photo-box {
+        margin: 0 10px;
+        flex: 1 0 40%; /* Take up 40% of the available space, adjust as needed */
+        max-width: 300px; /* Set maximum width */
+    }
+    
+    .photo-box img {
+        width: 100%; /* Fill the container */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+        border-radius: 6px;
+        box-shadow: 3px 3px 3px gray;
+    }
+    
+    .caption {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    /* Media Query for mobile phones */
+    @media screen and (max-width: 600px) {
+        .photo-box {
+            flex-basis: 100%; /* Take up full width */
+            margin: 10px 0; /* Add margin on top and bottom */
+        }
+    }
+    
+    
+    
+    
+    /* Contact section styling */
+    
+    #contact {
+        padding: 20px;
+        text-align: center;
+        }
+    
+    /* Footer styling */
+    
+    footer {
+        background-color: #333;
+        color: #fff;
+        padding: 20px 0;
+        text-align: center;
+        bottom: 0;
+        width: 100%;
+            }
+        </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1><b>Al-Haj Noor Mia College</b></h1>
+        <h3>Kankapaith, Chauddagram, Cumilla</h3>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#courses">Courses</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Banner Image -->
+    <img src="1.jpeg" alt="Banner Photo" class="banner-img">
+
+    <!-- Main Content -->
+    <div id="main-content">
+        <!-- About Section -->
+        <div id="about" class="content">
+            <h2 style="text-align: center;">History</h2>
+            <p style="padding: 0 100px 0 100px;"> <b>Al-Haj Noor Mia College</b>, established in 1995 by Mustafa Kamal and situated in Kankapait Chauddagram Comilla, stands as a beacon of educational excellence. Under the leadership of its non-government Principal, Shahnaz Akter Lovely, the institution has consistently upheld its commitment to providing quality education. With a focus on holistic development, the college offers a diverse range of academic programs and boasts well-equipped facilities including classrooms, laboratories, a library, sports amenities, and computer labs. <b>Al-Haj Noor Mia College</b> remains dedicated to shaping the minds of future generations and fostering an environment conducive to learning and growth.</p>
+        </div>
+
+
+
+         <!-- Founder Section -->
+<section id="founder">
+    <div class="founder-container">
+        <div class="founder-image">
+            <img src="founder.jpg" alt="Founder Photo" class="banner-img">
+            <p class="founder-name">জনাব মোস্তফা কামাল</p>
+        </div>
+        <div class="founder-text">
+            <h2 style="text-align: center;">Founder</h2>
+            <h4 style="padding: 0 100px;">জনা﻿ব মোস্তফা কামাল ২ ফেব্রুয়ারি ১৯৫৫ খ্রিঃ কুমিল্লা জেলার চৌদ্দগ্রাম উপজেলার কনকাপৈত ইউনিয়নের বুদ্দিন গ্রামের এক সম্ভ্রান্ত মুস্লিম পরিবারে জন্মগ্রহণ করেন। তাঁর পিতার নাম আলহাজ্ব নূর মিয়া এবং মাতা আলহাজ্ব আয়েশা নূর। তিন ভাইবোনের মধ্যে মোস্তফা কামাল পিতামাতার জ্যেষ্ঠ সন্তান। পড়াশুনা শেষে তিনি ঢাকায় পাড়ি জমান। ১৯৯৫ সালে এলাকায় শিক্ষার আলো বিস্তারের স্বার্থে তিনি একক অর্থানুকূল্যে প্রতিষ্ঠা করেন আলহাজ্ব নূর মিয়া কলেজ। তাঁর সহধর্মিণী বিউটি আক্তার এর মতো একজন ধার্মিক, মানবদরদী ও মহিয়সী নারী মোস্তফা কামালের পাশে থেকে সার্বিক সহযোগিতা করে যাচ্ছেন। </h4>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Teachers Section -->
+        <section id="teachers">
+            <h2 id="teachers-header">Teachers</h2>
+            <div id="teacher-boxes">
+                <div class="teacher-box">
+                    <img src="teacher.1.jpeg" alt="Teacher 1" class="teacher-image">
+                    <b><p>MD. Monirul Islam Mazumder</p></b>
+                </div>
+                <div class="teacher-box">
+                    <img src="teacher 2.jpeg" alt="Teacher 2" class="teacher-image">
+                    <b><p>MD.Nazmul Hasan</p></b>
+                </div>
+                <div class="teacher-box">
+                    <img src="teacher 3.jpeg" alt="Teacher 3" class="teacher-image">
+                    <b><p>Sariful Islam Bhuiyan</p></b>
+                </div>
+            </div>
+        </section>
+        <div id="more-button">
+            <button>More</button>
+        </div>
+
+        <!-- Courses Section -->
+        <section id="courses">
+            <h2 id="teachers-header">Courses</h2>
+            <div id="teacher-boxes">
+                <div class="teacher-box">
+                    <b><p>Science</p></b>
+                </div>
+                <div class="teacher-box">
+                    <b><p>Arts</p></b>
+                </div>
+                <div class="teacher-box">
+                    <b><p>Business Studies</p></b>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Additional Section -->
+<section id="additional">
+    <div class="section-header">
+        <b><h2>Our Campus</h2></b>
+    </div>
+    <div class="photo-row">
+        <div class="photo-box">
+            <img src="1.jpeg" alt="Photo 1">
+            <p class="caption"><b>Girls Campus.</b></p>
+        </div>
+        <div class="photo-box">
+            <img src="1.jpeg" alt="Photo 2">
+            <p class="caption"><b>Boy's Campus.</b></p>
+        </div>
+    </div>
+</section>
+
+
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><b>Contact Us</b></h2>
+            <p><b>Address:</b> Kankapaith, Chauddagram, Cumilla</p>
+            <p><b>Phone:</b> +01634567892</p>
+            <p><b>Email:</b> info@noormiagovtcollege.edu</p>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 <b>Al-Haj Noor Mia College</b>. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
